@@ -1,5 +1,5 @@
-import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
 
 //Modulos
 import { AppRoutingModule } from './app-routing.module';
@@ -11,10 +11,13 @@ import { NopagesfoundComponent } from './nopagesfound/nopagesfound.component';
 
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
     NopagesfoundComponent
+ 
   ],
   imports: [
     BrowserModule,
